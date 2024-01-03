@@ -1,0 +1,61 @@
+.movies-carousel-container {
+  width: 100vw;
+  background-color: black;
+}
+
+.movie-poster {
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.movie-poster:hover {
+  transform: translate3d(-4px, -4px, 0);
+}
+.movie-poster > img {
+  height: 100%;
+  width: 100%;
+}
+.movie-card-container {
+  height: 550px;
+  background-color: blue;
+}
+.movie-card {
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgb(0, 0, 0, 1)
+    ),
+    var(--img);
+}
+.movie-detail {
+  position: absolute;
+  top: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.movie-title {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.movie-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+.play-button-icon {
+  height: 50px;
+  color: #ffffff;
+}
+.play-button-icon:hover {
+  filter: drop-shadow(0 0 5px #ffffff);
+}
+.movie-review-button-container:hover {
+  filter: drop-shadow(0 0 5px #86c8f7);
+}
